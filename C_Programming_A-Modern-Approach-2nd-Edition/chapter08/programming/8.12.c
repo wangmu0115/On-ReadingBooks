@@ -34,4 +34,5 @@ int main(void) {
     total_point += char_points[toupper(ch) - 'A'];
   }
   printf("Scrabble value: %d\n", total_point);
+  return 0;
 }
